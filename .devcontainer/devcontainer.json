@@ -1,0 +1,17 @@
+{
+    "dockerComposeFile": ["../docker-compose.yml"],
+    "service": "django",
+    "workspaceFolder": "/src",
+    "forwardPorts": [8080],
+    "customizations": {
+      "vscode": {
+        "extensions": [
+            "ms-python.python",
+            "ms-python.black-formatter",
+            "ms-python.isort",
+            "batisteo.vscode-django"
+        ]
+      }
+    },
+    "remoteUser": "root"
+  }
