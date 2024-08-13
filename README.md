@@ -3,26 +3,26 @@ Djangoのサンプルコードです
 
 ## 起動方法
 
-1. Visual Studio Codeで開く
-- File > Open Folder... エクスプローラからdjango-basical-appを選択
+### 1. Visual Studio Codeで開く  
+File > Open Folder... エクスプローラからdjango-basical-appを選択
 
-2. ビルドと起動
-- TERMINALを開き、以下を実行
+### 2. ビルドと起動  
+```
 docker-compose up --build
+```
 
-4. Docker Containerで開く
+### 3. Docker Containerで開く  
 左下の[><]アイコン Open a remote windowを選択、Reopen in Container > Main
 
-5.src/sample へ移動
-- TERMINALを開き、以下を実行
+### 4. src/sample へ移動し、起動する  
+```
 cd sample
 
-6. ローカルで起動する
-- 以下を実行
 python manage.py runserver 127.0.0.1:8080
+```
 
-7. 確認
-以下へアクセスする
+### 5. 確認  
+以下へアクセスする  
 http://127.0.0.1:8080
 
 ## トラブルシューティング
