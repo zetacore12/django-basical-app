@@ -44,3 +44,6 @@ Docker Desktop が起動できていないので起動させましょう
 make build
 
 を実行して Docker image を更新してください
+
+## 参考
+[【Docker初心者向け】Dockerを使用してDjangoの開発環境を構築する](https://qiita.com/a-im12/items/7f3c8d1212dac3685e77)
